@@ -1,9 +1,9 @@
-const express = require("express");
+import express from "express"
 
 const app = express();
 
 app.get("/", (req, res) => {
-  console.log("Hi there!");
+  res.json({message: "Bye There"});
 });
 
 app.listen(8080, () => {

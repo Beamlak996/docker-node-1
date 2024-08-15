@@ -1,7 +1,7 @@
 {
   "name": "docker-node-1",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "description": ""
 }
